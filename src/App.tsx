@@ -22,12 +22,14 @@ function App() {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent")
+          alert("Message sent")
         },
         (error) => {
           console.log(error.text);
         }
       );
+
+
   };
 
   return (
